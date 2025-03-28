@@ -6,7 +6,7 @@ class Task:
         self.name = name
         self.execution_time = execution_time
         self.priority = priority
-        self.energy_consumption = 0
+        self.energy_consumption = 00
 
     def _lt_(self, other):
         return self.priority > other.priority  # Higher priority first
